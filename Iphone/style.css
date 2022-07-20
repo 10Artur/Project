@@ -1,0 +1,71 @@
+.brandd::first-letter {
+    color: red;
+}
+
+.nav-link:not(.dropdown-toggle):hover,
+.dropdown-item:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.img-first {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: none;
+}
+
+.one {
+    color: white;
+}
+
+.one:hover {
+    background-color: red;
+}
+
+.mar {
+    margin-left: 5px;
+}
+
+.twooo {
+    height: 700px;
+    width: 1300px;
+}
+
+.cardd {
+    background-color: black;
+    color: white;
+}
+
+.cardd:hover {
+    box-shadow: 0 15px 35px rgb(31, 30, 30);
+    transition: 0.6s;
+}
+
+.phot {
+    width: 75px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.phot:hover {
+    position: relative;
+    top: -10px;
+    transition: 2s;
+}
+
+.conttt {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.eea:focus::placeholder {
+    font-size: small;
+    position: relative;
+    transition: 2s;
+    top: -10px
+}
